@@ -1,4 +1,5 @@
 import './App.css';
+import Sale from './Sale';
 
 function App() {
   return (
