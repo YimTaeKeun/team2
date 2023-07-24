@@ -1,4 +1,4 @@
-import Sale from './Sale';
+import Sale from './Sale/Sale';
 
 function App() {
   return (
