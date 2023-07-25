@@ -1,3 +1,4 @@
+import './App.css';
 import Sale from './Sale/Sale';
 
 function App() {
