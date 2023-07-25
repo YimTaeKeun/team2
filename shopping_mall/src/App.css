@@ -20,3 +20,30 @@ a:visited{
     flex-wrap: wrap;
     justify-content: center;
 }
+.Product_list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.Product_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(167, 163, 163);
+    padding-bottom: 40px;
+    border: 2px solid black;
+    color: red;
+    margin: 10px;
+}
+.Product_item img{
+    width: 120px;
+}
+.MainBody{
+    padding: 50px;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
