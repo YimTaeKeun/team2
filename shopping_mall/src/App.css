@@ -1,7 +1,18 @@
+a{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color:white;
+}
 .sale_nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     border: 2px solid black;
     justify-content: center;
+    color: white;
+    background-color: black;
 }
+
