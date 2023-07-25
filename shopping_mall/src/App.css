@@ -15,4 +15,8 @@ a:visited{
     color: white;
     background-color: black;
 }
-
+.Ad{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
