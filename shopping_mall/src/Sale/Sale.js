@@ -5,6 +5,7 @@ const Sale = () => {
     return <div>
         <Sale_nav />
         <Sale_body />
+        <Ad />
     </div>
 }
 export default Sale;
