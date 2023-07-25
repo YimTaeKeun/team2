@@ -1,0 +1,7 @@
+.sale_nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: center;
+}
