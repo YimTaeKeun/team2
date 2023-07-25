@@ -4,7 +4,7 @@ import Sale from './Sale/Sale';
 function App() {
   return (
     <div className="App">
-      {/* 아래 코드는 Sale 화면을 확인하기 위해 작성함 */}
+      {/* 아래 코드는 Ranking 화면을 확인하기 위해 작성함 */}
       <Sale />
     </div>
   );
