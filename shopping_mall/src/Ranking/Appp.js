@@ -1,11 +1,11 @@
-import Sale_nav from "./Sale_nav";
-import Sale_body from "./Sale_body";
-import Ad from "./Ad";
-const Sale = () => {
+import Rank_nav from "./Rank_nav";
+import Rank_body from "./Rank_body";
+import advertise from "./advertise";
+const Rank = () => {
     return <div>
-        <Sale_nav />
-        <Sale_body />
-        <Ad />
+        <Rank_nav />
+        <Rank_body />
+        <Advertise />
     </div>
 }
-export default Sale;
+export default Rank;
