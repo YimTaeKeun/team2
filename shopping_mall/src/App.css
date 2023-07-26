@@ -47,3 +47,6 @@ a:visited{
     flex-wrap: wrap;
     flex-direction: row;
 }
+.Product_item:hover{
+    cursor: pointer;
+}
