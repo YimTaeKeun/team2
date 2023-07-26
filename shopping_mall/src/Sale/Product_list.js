@@ -1,8 +1,12 @@
-import one_top from '../Product_img/Top/Tshirt_adidas.jpg';
-import one_pants from '../Product_img/Pants/Black_Slacks.jpg';
+import top_1 from '../Product_img/Top/Tshirt_adidas.jpg';
+import pants_1 from '../Product_img/Pants/Black_Slacks.jpg';
+import top_2 from '../Product_img/Top/Hoodie_grey.jpg';
+import pants_2 from '../Product_img/Pants/Jogger_Pants.jpg';
+import top_3 from '../Product_img/Top/Tshirt_white.jpg';
+import pants_3 from '../Product_img/Pants/Minimal_Pants.jpg';
 import Product_item from './Product_item';
 const Product_list = () => {
-    const clothes = [one_top, one_pants];
+    const clothes = [top_1, pants_1, top_2, pants_2, top_3, pants_3, top_1, pants_1, top_2, pants_2, top_3, pants_3];
     let product_list = []
     for(let i = 0; i < clothes.length; i++) product_list[i] = {Cloth: clothes[i], Sale: Math.floor(Math.random() * 100)};
     return <div className='Product_list'>
