@@ -1,13 +1,13 @@
 import hoodyhoody1 from '../Product_img/Top/Yaledog.png';
-import bluebluegirl from ',,/Product_img/Top/Blueshirtgirl.png';
+import bluebluegirl from '../Product_img/Top/Blueshirtgirl.png';
 import Rank_product from './Rank_product';
 const Rank_list = () => {
-    const clothes = [hoodyhoody1, bluebluegirl];
+    const heejae = [hoodyhoody1, bluebluegirl];
     let Rank_list = []
-    for(let i = 0; i < clothes.length; i++) Rank_list[i] = {Cloth: clothes[i], Sale: Math.floor(Math.random() * 100)};
+    for(let i = 0; i < heejae.length; i++) Rank_list[i] = {CCLLOOTTHH: heejae[i], like: Math.floor(Math.random() * 100)};
     return <div className='Rank_list'>
         <div>
-        <h4>할인율이 제일 높은 순을 기준으로 정렬했습니다.</h4>
+        <h4>인기가 높은 순을 기준으로 정렬했습니다.</h4>
         </div>
         <div className="MainBody">
         {Rank_list.map((each) => (<Rank_product list={each}/>))}

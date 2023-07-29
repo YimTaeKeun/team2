@@ -1,9 +1,9 @@
-import top_1 from '../Product_img/Top/Tshirt_adidas.jpg';
-import pants_1 from '../Product_img/Pants/Black_Slacks.jpg';
-import top_2 from '../Product_img/Top/Hoodie_grey.jpg';
-import pants_2 from '../Product_img/Pants/Jogger_Pants.jpg';
-import top_3 from '../Product_img/Top/Tshirt_white.jpg';
-import pants_3 from '../Product_img/Pants/Minimal_Pants.jpg';
+import top_1 from '../Product_img/Top/Tshirt_adidas_boy.jpg';
+import pants_1 from '../Product_img/Pants/Black_Slacks_boy.jpg';
+import top_2 from '../Product_img/Top/Hoodie_grey_girl.jpg';
+import pants_2 from '../Product_img/Pants/Jogger_Pants_girl.jpg';
+import top_3 from '../Product_img/Top/Tshirt_white_boy.jpg';
+import pants_3 from '../Product_img/Pants/Minimal_Pants_girl.jpg';
 import Product_item from './Product_item';
 const Product_list = () => {
     const clothes = [top_1, pants_1, top_2, pants_2, top_3, pants_3, top_1, pants_1, top_2, pants_2, top_3, pants_3];

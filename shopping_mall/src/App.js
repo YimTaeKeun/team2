@@ -9,6 +9,7 @@ function App() {
       {/* <Appp/> */}
       {/* <Sale /> */}
       
+      <Sale />
     </div>
   );
 }
