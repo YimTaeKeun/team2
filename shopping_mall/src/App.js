@@ -10,8 +10,8 @@ function App() {
       {/* 아래 코드는 Ranking 화면을 확인하기 위해 작성함 */}
       {/* <Appp/> */}
       {/* <Sale /> */}
-      {/* <Man/> */}
-      <Woman/>
+      <Man/>
+      {/* <Woman/> */}
     </div>
   );
 }

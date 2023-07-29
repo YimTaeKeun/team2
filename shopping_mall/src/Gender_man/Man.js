@@ -5,8 +5,8 @@ import Man_Ad from './Man_Ad';
 const Gender_man = () =>{
     return <div>
         <Man_nav />
-        {/* <Man_body />
-        <Man_Ad /> */}
+        <Man_body />
+        {/* <Man_Ad /> */}
     </div>
 }
 
