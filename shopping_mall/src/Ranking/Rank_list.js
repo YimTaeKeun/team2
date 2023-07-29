@@ -1,5 +1,5 @@
-import hoodyhoody1 from '../Product_img/Top/Yaledog.png';
-import bluebluegirl from '../Product_img/Top/Blueshirtgirl.png';
+import hoodyhoody1 from '../Product_img/Top/Yaledog_boy.png';
+import bluebluegirl from '../Product_img/Top/Blueshirt_girl.png';
 import Rank_product from './Rank_product';
 const Rank_list = () => {
     const heejae = [hoodyhoody1, bluebluegirl];
