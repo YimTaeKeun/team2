@@ -10,10 +10,10 @@ a:visited{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 2px solid black;
+    border: 2px solid #00bbff;
     justify-content:space-between;
     color: white;
-    background-color: black;
+    background-color: #00bbff;
 }
 .Ad{
     display: flex;
@@ -31,7 +31,7 @@ a:visited{
     flex-wrap: wrap;
     flex-direction: column;
     padding: 20px;
-    background-color: rgb(167, 163, 163);
+    background-color: pink;
     padding-bottom: 40px;
     border: 2px solid black;
     color: red;
@@ -42,7 +42,7 @@ a:visited{
 }
 .MainBody{
     padding: 50px;
-    background-color: brown;
+    background-color: #00bbff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
