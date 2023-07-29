@@ -4,8 +4,8 @@ import Advertise from "./Advertise";
 const Rank = () => {
     return <div>
         <Rank_nav />
-        <Rank_body />
-        <Advertise />
+        {/* <Rank_body /> */}
+        {/* <Advertise /> */}
     </div>
 }
 export default Rank;
