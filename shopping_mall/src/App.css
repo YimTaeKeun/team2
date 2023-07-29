@@ -42,7 +42,7 @@ a:visited{
 }
 .MainBody{
     padding: 50px;
-    background-color: #00bbff;
+    background-color: #00bbff85;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
