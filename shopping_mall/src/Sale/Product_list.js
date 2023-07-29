@@ -9,6 +9,11 @@ const Product_list = () => {
     const clothes = [top_1, pants_1, top_2, pants_2, top_3, pants_3, top_1, pants_1, top_2, pants_2, top_3, pants_3];
     let product_list = []
     for(let i = 0; i < clothes.length; i++) product_list[i] = {Cloth: clothes[i], Sale: Math.floor(Math.random() * 100)};
+    product_list.sort(function(a, b){
+        if (a.Sale < b.Sale) return 1;
+        else if(a.Sale === b.Sale) return 0;
+        else return -1;
+    });
     return <div className='Product_list'>
         <div>
         <h4>할인율이 제일 높은 순을 기준으로 정렬했습니다.</h4>
