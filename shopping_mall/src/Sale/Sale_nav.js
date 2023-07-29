@@ -1,5 +1,5 @@
 import search_img from './img/search.png';
-import {useNavigate} from 'react-router-dom';
+// import {useNavigate} from 'react-router-dom';
 const Sale_nav = () => {
     // const navigate = useNavigate();
     // const searchProduct = () => {
