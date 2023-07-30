@@ -47,9 +47,7 @@ a:visited{
     flex-wrap: wrap;
     flex-direction: row;
 }
-.Product_item:hover{
-    cursor: pointer;
-}
+.Product_item:hover{cursor: pointer;}
 .sale_nav div{
     display: flex;
     padding: 30px;
@@ -59,9 +57,7 @@ a:visited{
     filter: invert(100);
     width: 30px;
 }
-.sale_nav div :hover{
-    cursor: pointer;
-}
+.sale_nav div :hover{cursor: pointer;}
 
 .TopPants-Btn{
     display: flex;
@@ -120,6 +116,7 @@ a:visited{
     color: white;
 }
 /* 모든 로고의 클래스 이름을 logo_name으로 수정해주세요 */
-.logo_name{
-    margin-left: 150px;
-}
+.logo_name{margin-left: 150px;}
+.main_logo_name{margin-left: 10px;}
+.main_search_input{width: 600px;}
+.logo_name, .main_logo_name{font-family:'Times New Roman', Times, serif;}
