@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="App">
       {/* 이 부분 부터 메인 화면을 꾸미기 위한 코드 입니다. */}
-      <Main_nav />
+      {/* <Main_nav /> */}
       {/* --------------- */}
 
       {/* 아래 코드는 Ranking 화면을 확인하기 위해 작성함 */}
-      {/* <Appp/> */}
+      <Appp/>
       {/* <Sale /> */}
       {/* <Man/> */}
       {/* <Woman/> */}
