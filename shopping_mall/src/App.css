@@ -126,3 +126,9 @@ a:visited{
 .main_logo_name{margin-left: 10px;}
 .main_search_input{width: 600px;}
 .logo_name, .main_logo_name{font-family:'Times New Roman', Times, serif;}
+
+.Product_info img{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+}

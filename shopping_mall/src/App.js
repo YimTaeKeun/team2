@@ -5,6 +5,7 @@ import Man from './Gender_man/Man';
 import Woman from './Gender_woman/Woman';
 import Main_nav from './Main_nav';
 import Main from './Main';
+import Product_inform from './Product_inform/Product_inform';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path={"/Ranking/APPP"} element={<Appp />}></Route>
         <Route path={"/Gender_man/Man"} element={<Man />}></Route>
         <Route path={"/Gender_man/Woman"} element={<Woman />}></Route>
+        <Route path={"/Product_inform/Product_inform"} element={<Product_inform />}></Route>
       </Routes>
       </BrowserRouter>
     </div>
