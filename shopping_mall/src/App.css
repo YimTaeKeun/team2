@@ -1,19 +1,19 @@
 a{
     text-decoration-line: none;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 a:visited{
-    color:white;
+    color:black;
 }
 .sale_nav{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 2px solid #00bbff;
+    border: 2px solid #eca151cb;
     justify-content:space-between;
     color: white;
-    background-color: #00bbff;
+    background-color: #eca151cb;
 }
 .Ad{
     display: flex;
@@ -42,7 +42,6 @@ a:visited{
 .MainBody{
     padding: 50px;
     background-color: #00bbff85;
-    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
