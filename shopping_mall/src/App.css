@@ -127,11 +127,13 @@ a:visited{
 .main_search_input{width: 600px;}
 .logo_name, .main_logo_name{font-family:'Times New Roman', Times, serif;}
 
+.Rank_list img{
+    height: 270px;
+    width: 200px;
+}
+
 .Product_info img{
     margin-top: 50px;
     margin-left: 50px;
     width: 500px;
 }
-/* .img.Black_gardigan_boy{
-    width:100000px;
-} 크기 늘리다가 실패 */

@@ -7,7 +7,7 @@ import pants_3 from '../Product_img/Top/Yaledog_boy.png';
 import Product_item from './Product_item';
 const Product_list = () => {
     const clothes = [top_1, pants_1, top_2, pants_2, top_3, pants_3, top_1, pants_1, top_2, pants_2, top_3, pants_3];
-    const names = ["아디다스 티셔츠", "세미 와이드 히든 밴딩 슬랙스", "후드티(회색)", "조거 팬츠", "횐 티", "미니멀 팬츠", "아디다스 티셔츠", "세미 와이드 히든 밴딩 슬랙스", "후드티(회색)", "조거 팬츠", "횐 티", "미니멀 팬츠"];
+    const names = ["아디다스 티셔츠", "세미 와이드 히든 밴딩 슬랙스", "후드티(회색)", "조거 팬츠", "횐 티", "Yale Dog 후드티", "아디다스 티셔츠", "세미 와이드 히든 밴딩 슬랙스", "후드티(회색)", "조거 팬츠", "횐 티", "Yale Dog 후드티"];
     let product_list = []
     for(let i = 0; i < clothes.length; i++) product_list[i] = {Cloth: clothes[i], Sale: Math.floor(Math.random() * 95) + 5, Name: names[i]};
     product_list.sort(function(a, b){
