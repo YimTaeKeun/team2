@@ -31,14 +31,14 @@ a:visited{
     flex-wrap: wrap;
     flex-direction: column;
     padding: 20px;
-    background-color: pink;
-    padding-bottom: 40px;
+    background-color: white;
+    padding-bottom: 1px;
     border: 2px solid black;
     color: red;
     margin: 10px;
 }
 .Product_item img{
-    width: 120px;
+    width: 250px;
 }
 .MainBody{
     padding: 50px;
