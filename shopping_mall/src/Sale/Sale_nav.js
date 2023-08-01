@@ -8,7 +8,7 @@ const Sale_nav = () => {
     }
     return <div className="sale_nav">
         <div></div>
-        <h1 className='logo_name'><strong><a href='/'>태연희</a><a href='/Sale/Sale'> 세일</a></strong></h1>
+        <h1 className='logo_name'><strong><a href='/'>TYH</a><a href='/Sale/Sale'> 세일</a></strong></h1>
         <div>
             <input id='search_input' type="text" placeholder="검색" class="search_input" onChange={changeText}/>
             <a href={state}><img src={search_img}/></a>
