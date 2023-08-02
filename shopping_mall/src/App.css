@@ -145,5 +145,15 @@ a:visited{
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
+    flex-direction: column;
 }
 .nav_popup{padding: 1px;}
+.DownPopup{
+    border: 1px solid black;
+    /* visibility: hidden; */
+    display: none;
+}
+.DownPopup:hover{
+    display: block;
+    visibility: visible;
+}
