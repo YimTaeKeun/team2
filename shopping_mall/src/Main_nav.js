@@ -1,7 +1,9 @@
 import search_img from './Sale/img/search.png';
+import Main_nav_popup from './Main_nav_popup';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 const Main_nav = () => {
+    const popup_kind = ["세일", "성별", "사계절", "랭킹"];
     const [state, setState] = useState();
     const onChangeInput = () => {
         setState("https://www.musinsa.com/search/musinsa/integration?q=" + document.getElementsByClassName('main_search_input').value);
@@ -12,9 +14,11 @@ const Main_nav = () => {
             <input type="text" placeholder="검색" className='main_search_input' onChange={onChangeInput}/>
             <a href={state}><img src={search_img}/></a>
         </div>
-        <div>
-            {/* 이 곳에 세일, 성별, 사계절, 랭킹을 택하는 팝업화면 코드를 넣을 예정 */}
+        {/* 이 곳에 세일, 성별, 사계절, 랭킹을 택하는 팝업화면 코드를 넣을 예정 */}
+        <div className='nav_popup'>
+        {popup_kind.map((each) => (<Main_nav_popup list={each}/>))}
         </div>
+        
     </div>
 }
 export default Main_nav;

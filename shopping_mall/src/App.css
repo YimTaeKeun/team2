@@ -51,8 +51,10 @@ a:visited{
 .Product_item:hover{cursor: pointer;}
 .sale_nav div{
     display: flex;
-    padding: 30px;
+    padding: 20px;
+    align-items: center;
 }
+.sale_nav input{height: 30px;}
 .sale_nav div img{
     margin-left: px;
     filter: invert(100);
@@ -138,3 +140,10 @@ a:visited{
     margin-left: 50px;
     width: 400px;
 }
+
+.popup{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.nav_popup{padding: 1px;}
