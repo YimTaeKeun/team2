@@ -17,10 +17,10 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path={"/"} element={<Main />}></Route>
-        <Route path={"/Sale/Sale"} element={<Sale />}></Route>
-        <Route path={"/Ranking/APPP"} element={<Appp />}></Route>
-        <Route path={"/Gender_man/Man"} element={<Man />}></Route>
-        <Route path={"/Gender_man/Woman"} element={<Woman />}></Route>
+        <Route path={"/Sale"} element={<Sale />}></Route>
+        <Route path={"/Ranking"} element={<Appp />}></Route>
+        <Route path={"/Man"} element={<Man />}></Route>
+        <Route path={"/Woman"} element={<Woman />}></Route>
         <Route path={"/Product_inform/Product_inform"} element={<Product_inform />}></Route>
       </Routes>
       </BrowserRouter>
