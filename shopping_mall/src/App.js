@@ -9,9 +9,6 @@ import Product_inform from './Product_inform/Product_inform';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-  // const searchProduct = () => {
-  //   <Route path='./Product_inform/Product_inform' Component={Product_inform} />
-  // }
   return (
     <div className="App">
       {/* 앞으로 App.js는 건들지 말것. 본인 페이지를 확인하고 싶으면 url을 건드려서 이동 */}
