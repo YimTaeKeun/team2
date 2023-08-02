@@ -38,6 +38,7 @@ a:visited{
 }
 .Product_item img{
     width: 250px;
+    border: 1px solid black;
 }
 .MainBody{
     padding: 50px;
