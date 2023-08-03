@@ -13,25 +13,25 @@ const Woman_list = () => {
     let Woman_bottom_list=[];
 
     return <div className='Product_list'>
-        <div id='#Top'>
+        <div id='Top'>
             <h3>상의</h3>
             <div className='MainBody'>
                 {Object.keys(clothes_top).map((key) => (
                     <div key={key}>
-                        <img src={clothes_top[key]} />
+                        <img src={clothes_top[key]} alt={clothes_top[key] + '사진'} />
                         <p>{clothes_top[key]}</p>
                     </div>
                 ))}
             </div>
         </div>
 
-        <div id='#Bottom'>
+        <div id='Bottom'>
             <h3>하의</h3>
             <div className='MainBody'>
                 {Object.keys(clothes_bottom).map((key) => (
                     <div key={key}>
-                        <img src={clothes_bottom[key]} />
-                        <p>{clothes_bottom[key]}</p>
+                        <img src={clothes_bottom[key]} alt={clothes_top[key] + '사진'} />
+                        <p>{clothes_top[key]}</p>
                     </div>
                 ))}
             </div>
