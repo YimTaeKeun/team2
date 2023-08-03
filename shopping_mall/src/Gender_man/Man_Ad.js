@@ -4,7 +4,7 @@ import c from './ad_img/003.png';
 
 const Man_Ad = () => {
     let img_arr = [a, b, c];
-    let ad = Math.floor(Math.random()*4);
+    let ad = Math.floor(Math.random()*3);
     let path = './ad_img/' + '.png';
 
     return <div className='Ad'>

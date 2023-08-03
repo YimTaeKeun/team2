@@ -6,7 +6,7 @@ const Gender_woman = () =>{
     return <div>
         <Woman_nav />
         <Woman_body />
-        {/* <Woman_Ad /> */}
+        <Woman_Ad />
     </div>
 }
 
