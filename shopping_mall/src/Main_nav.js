@@ -16,6 +16,9 @@ const Main_nav = () => {
             <a href={state}><img src={search_img}/></a>
         </div>
         {/* 이 곳에 세일, 성별, 사계절, 랭킹을 택하는 팝업화면 코드를 넣을 예정 */}
+        {/* <div className='nav_downpopup'>
+            <a href=''><input className='Gender' type='button' value={'Woman'}/></a>
+        </div> */}
         <div className='nav_popup'>
         {popup_kind.map((each) => (<Main_nav_popup list={each} down_popup={down_popup}/>))}
         </div>
