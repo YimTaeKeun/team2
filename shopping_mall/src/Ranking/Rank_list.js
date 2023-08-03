@@ -11,7 +11,7 @@ import Rank_product from './Rank_product';
 const Rank_list = () => {
     const heejae = [hoodyhoody1,hoody_2, pants_3, bluebluegirl,blackgardigan,pants_2,handsomeboy,adidasgirlboy];
     let Rank_list = []
-    for(let i = 0; i < heejae.length; i++) Rank_list[i] = {CCLLOOTTHH: heejae[i], Sale: Math.floor(Math.random() * 10) + 5, Name:heejae[i]};
+    for(let i = 0; i < heejae.length; i++) Rank_list[i] = {CCLLOOTTHH: heejae[i], Rank: Math.floor(Math.random() * 10) + 5, Name:heejae[i]};
     Rank_list.sort(function(a, b){
         if (a.Rank < b.Rank) return 1;
         else if(a.Rank === b.Rank) return 0;
