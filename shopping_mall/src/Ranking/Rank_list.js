@@ -1,9 +1,14 @@
 import hoodyhoody1 from '../Product_img/Top/Yaledog_boy.png';
 import blackgardigan from '../Product_img/Top/Black_gardigan_boy.png';
 import bluebluegirl from '../Product_img/Top/Blueshirt_girl.png';
+import pants_2 from '../Product_img/Pants/Jogger_Pants_girl.jpg';
+import handsomeboy from '../Product_img/Top/Michigan_charcoal_boy.jpg';
+import adidasgirlboy from '../Product_img/Top/Tshirt_adidas_boy.jpg'
+import pants_3 from '../Product_img/Pants/Jogger_Pants_girl.jpg';
 import Rank_product from './Rank_product';
+
 const Rank_list = () => {
-    const heejae = [hoodyhoody1, bluebluegirl,blackgardigan];
+    const heejae = [hoodyhoody1, pants_3, bluebluegirl,blackgardigan,pants_2,handsomeboy,adidasgirlboy];
     let Rank_list = []
     for(let i = 0; i < heejae.length; i++) Rank_list[i] = {CCLLOOTTHH: heejae[i], like: Math.floor(Math.random() * 100)};
     return <div className='Rank_list'>
