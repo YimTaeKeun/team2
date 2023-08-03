@@ -7,13 +7,13 @@ import Woman_item from'./Woman_item';
 
 const Woman_list = () => {
     const clothes_top = {top_1:'블루블루셔츠', top_2:'호호 심플후드'};
-    const clothes_bottom = {pants_1:'나이스조거팬츠', pants_2:'미니멀팬츠'};
+    const clothes_bottom = {pants_1:'나이스조거팬츠', pants_2:'미니멀팬츠(남녀공용)'};
 
     let Woman_top_list=[];
     let Woman_bottom_list=[];
 
     return <div className='Product_list'>
-        <div id='Top'>
+        <div id='Woman_Top'>
             <h3>상의</h3>
             <div className='MainBody'>
                 {Object.keys(clothes_top).map((key) => (
@@ -25,7 +25,7 @@ const Woman_list = () => {
             </div>
         </div>
 
-        <div id='Bottom'>
+        <div id='Woman_Bottom'>
             <h3>하의</h3>
             <div className='MainBody'>
                 {Object.keys(clothes_bottom).map((key) => (
