@@ -7,7 +7,7 @@ const Ad = () => {
     let img_arr = [one, two, three, four, five];
     let a = Math.floor(Math.random() * 5);
     let path = './img/' + a + '.png';
-    return <div className='Ad'>
+    return <div className='AdSale'>
         <img src={img_arr[a]}/>
     </div>
 }
