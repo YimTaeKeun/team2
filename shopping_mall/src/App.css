@@ -36,6 +36,17 @@ a:visited{
     color: red;
     margin: 10px;
 }
+.Rank_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 1px;
+    border: 2px solid black;
+    color: blue;
+    margin: 10px;
+
+}
 .Product_item img{
     width: 250px;
     border: 1px solid black;
