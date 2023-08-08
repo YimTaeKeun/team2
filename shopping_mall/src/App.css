@@ -164,6 +164,13 @@ a:visited{
     margin-left: 50px;
     width: 400px;
 }
+.Product_info{
+    display: flex;
+    justify-content:space-between;
+}
+.Product_info div{
+    display: flex;
+}
 
 .popup{
     display: flex;

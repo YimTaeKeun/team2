@@ -12,7 +12,7 @@ const Body = () => {
         <View_Product_Inform Cloth_name={Cloth_name} Sale_imform={Sale_inform}/>
         <View_Review />
         {/* 아래 코드는 디버깅 용도로 남겨둔 것임 */}
-        <h1>{Cloth_name}</h1>
+        {/* <h1>{Cloth_name}</h1> */}
     </div>
 }
 export default Body;
