@@ -1,7 +1,9 @@
 import Main_nav from "./Main_nav";
+import Category from "./Category";
 const Main = () => {
     return <div>
-        <Main_nav />
+        <Category />
+        {/* <Main_nav /> */}
     </div>
 }
 export default Main;
