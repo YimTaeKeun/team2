@@ -9,7 +9,7 @@ const Rank_item = ({list}) => {
     }
     return <div className='Rank_item'>
         <img src={list.CCLLOOTTHH} onClick={goInform}/>
-        <h2>{list.Rank}% 번 째 인기!</h2>
+        <h2>{list.Rank}번 째 인기!</h2>
     </div>
 }
 export default Rank_item;
