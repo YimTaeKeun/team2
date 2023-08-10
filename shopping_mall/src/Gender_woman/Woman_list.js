@@ -3,7 +3,7 @@ import top_2 from '../Product_img/Top/Hoodie_grey_girl.jpg';
 import pants_1 from '../Product_img/Pants/Jogger_Pants_girl.jpg';
 import pants_2 from '../Product_img/Pants/Minimal_Pants_girl.jpg';
 
-// import Woman_item from'./Woman_item';
+import Woman_item from'./Woman_item';
 
 const Woman_list = () => {
     const clothes_top = {top_1:'블루블루셔츠', top_2:'호호 심플후드'};
@@ -17,10 +17,7 @@ const Woman_list = () => {
             <h3>상의</h3>
             <div className='MainBody'>
                 {Object.keys(clothes_top).map((key) => (
-                    <div key={key} className='Product_item'>
-                        <img src={clothes_top[key]} alt={clothes_top[key] + '사진'} />
-                        <p>{clothes_top[key]}</p>
-                    </div>
+                    <Woman_item key={key} list={clothes_top[key]}/>
                 ))}
             </div>
         </div>
@@ -29,10 +26,7 @@ const Woman_list = () => {
             <h3>하의</h3>
             <div className='MainBody'>
                 {Object.keys(clothes_bottom).map((key) => (
-                    <div key={key} className='Product_item'>
-                        <img src={clothes_bottom[key]} alt={clothes_bottom[key] + '사진'} />
-                        <p>{clothes_bottom[key]}</p>
-                    </div>
+                    <Woman_item key={key} list={clothes_bottom[key]}/>
                 ))}
             </div>
         </div>
