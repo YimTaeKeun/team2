@@ -6,7 +6,7 @@ const Man_item = ({list}) => {
     function goInform(){
         movePage('/Product_inform/Product_inform?Cloth=' + Cloth_inform + "&Name=" + Cloth_name);
     }
-    return <div className='Product_item'>
+    return <div className='Name_item'>
         <img src={list.Cloth} onClick={goInform}/>
         <h2>{list.Name}</h2>
     </div>

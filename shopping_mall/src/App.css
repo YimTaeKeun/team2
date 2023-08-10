@@ -193,3 +193,19 @@ a:visited{
     display: flex;
     position: fixed;
 }
+
+.Name_item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    padding-bottom: 1px;
+    border: 2px solid black;
+    color: blue;
+    margin: 10px;
+}
+.Name_item img{
+    width: 250px;
+    border: 1px solid black;
+}
+.Name_item:hover{cursor: pointer;}
