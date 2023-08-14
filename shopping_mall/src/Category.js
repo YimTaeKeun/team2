@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./style/style.css";
 const Category = () => {
-  const menuLst = ["menu1", "menu2", "menu3", "menu4", "menu5"];
+  const menuLst = ["세일", "성별", "사계절", "랭킹"];
   const [hide, setHide] = useState({
     menu1: false,
     menu2: false,
@@ -23,7 +23,7 @@ const Category = () => {
             onMouseEnter={() => mouseEvent(v, true)}
             onMouseLeave={() => mouseEvent(v, false)}
           >
-            <p>{`메뉴${idx + 1}`}</p>
+            <p>{v}</p>
           </li>
         ))}
       </ul>
