@@ -209,3 +209,27 @@ a:visited{
     border: 1px solid black;
 }
 .Name_item:hover{cursor: pointer;}
+
+/* nav 테스트를 위한 CSS */
+.sale_nav_main_test{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid #eca151cb;
+    justify-content:space-between;
+    color: white;
+    background-color: #eca151cb;
+}
+
+.sale_nav_main_test div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.sale_nav_main_test input{height: 30px;}
+.sale_nav_main_test div img{
+    margin-left: px;
+    filter: invert(100);
+    width: 30px;
+}
+.sale_nav_main_test div :hover{cursor: pointer;}

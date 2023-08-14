@@ -1,6 +1,7 @@
 import search_img from './Sale/img/search.png';
 import Main_nav_popup from './Main_nav_popup';
 import { useNavigate } from 'react-router-dom';
+import Category from './Category';
 import { useState } from 'react';
 const Main_nav = () => {
     const down_popup = {"세일": ["폭탄 세일", "한정 세일"], "성별": ["남", "여"], "사계절": ["봄", "여름", "가을", "겨울"], "랭킹": ["금주", "한달", "전체"]};
@@ -20,7 +21,9 @@ const Main_nav = () => {
             <a href=''><input className='Gender' type='button' value={'Woman'}/></a>
         </div> */}
         <div className='nav_popup'>
-        {popup_kind.map((each) => (<Main_nav_popup list={each} down_popup={down_popup}/>))}
+            {/* <div></div> */}
+            <Category />
+        {/* {popup_kind.map((each) => (<Main_nav_popup list={each} down_popup={down_popup}/>))} */}
         </div>
         
     </div>
