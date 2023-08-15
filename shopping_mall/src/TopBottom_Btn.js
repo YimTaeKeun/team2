@@ -8,9 +8,9 @@ const TopBottom_Btn= () => {
         window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
     }
 
-    return <div class="TopBottom-Btn">
-        <button class="TBBtn" onClick={scrollToTop}>^</button>
-        <button class="TBBtn" onClick={scrollToBottom}>v</button>
+    return <div className="TopBottom-Btn">
+        <button className="TBBtn" onClick={scrollToTop}>Top</button>
+        <button className="TBBtn" onClick={scrollToBottom}>Bottom</button>
     </div>
 }
 export default TopBottom_Btn;
