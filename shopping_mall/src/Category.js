@@ -1,8 +1,14 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import style from "./style/style.css";
 const Category = () => {
   const menuLst = ["세일", "성별", "사계절", "랭킹"];
   const detail = [["폭탄 세일", "한정 세일"], ["남", "여"], ["봄", "여름", "가을", "겨울"], ["금주", "한달", "전체"]];
+  const detail_url = [['/Sale', '/Sale'], ['/Man', '/Woman'], ['/Spring', '/Summer', '/Autumn', '/Winter'], ['/Ranking', '/Ranking', '/Ranking', 'Ranking']];
+  const movePage = useNavigate();
+  function goPage(big_idx, detail_idx){
+    movePage(detail_url[big_idx][detail_idx]);
+  }
   const [hide, setHide] = useState({
     menu1: false,
     menu2: false,
@@ -35,7 +41,7 @@ const Category = () => {
             onMouseLeave={() => mouseEvent(v, false)}
           >
             {detail[idx].map((cont, index) => (
-              <li>{cont}</li>
+              <li onClick={() => (goPage(idx, index))}>{cont}</li>
             ))}
           </ul>
         ))}
