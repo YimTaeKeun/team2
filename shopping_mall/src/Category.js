@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import style from "./style/style.css";
 const Category = () => {
   const menuLst = ["세일", "성별", "사계절", "랭킹"];
+  const detail = [["폭탄 세일", "한정 세일"], ["남", "여"], ["봄", "여름", "가을", "겨울"], ["금주", "한달", "전체"]];
   const [hide, setHide] = useState({
     menu1: false,
     menu2: false,
@@ -33,10 +34,9 @@ const Category = () => {
             onMouseEnter={() => mouseEvent(v, true)}
             onMouseLeave={() => mouseEvent(v, false)}
           >
-            <li>{`메뉴${idx + 1}-${1}`}</li>
-            <li>{`메뉴${idx + 1}-${2}`}</li>
-            <li>{`메뉴${idx + 1}-${3}`}</li>
-            <li>{`메뉴${idx + 1}-${4}`}</li>
+            {detail[idx].map((cont, index) => (
+              <li>{cont}</li>
+            ))}
           </ul>
         ))}
       </div>
