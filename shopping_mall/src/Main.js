@@ -1,9 +1,9 @@
 import Main_nav from "./Main_nav";
-import Category from "./Category";
+import TopBottom_Btn from "./TopBottom_Btn";
 const Main = () => {
     return <div>
-        {/* <Category /> */}
         <Main_nav />
+        {/* <TopBottom_Btn /> */}
     </div>
 }
 export default Main;
