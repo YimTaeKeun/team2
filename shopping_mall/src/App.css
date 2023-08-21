@@ -250,3 +250,21 @@ a:visited{
     width: 30px;
 }
 .sale_nav_main_test div :hover{cursor: pointer;}
+
+
+.cloth_name, .Size{
+    font-size: xx-large;
+}
+
+.View_Product_Inform{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.Size div{
+    margin-right: 5px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
