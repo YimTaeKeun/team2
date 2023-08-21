@@ -251,15 +251,21 @@ a:visited{
 }
 .sale_nav_main_test div :hover{cursor: pointer;}
 
-
-.cloth_name, .Size{
+.cloth_name{font-size: 42px;}
+.Size{
     font-size: xx-large;
 }
 
 .View_Product_Inform{
+    padding-left: 20%;
+    padding-right: 25%;
     padding-top: 100px;
     display: flex;
     flex-direction: column;
+    background-color: rgb(245, 235, 235);
+    
+    justify-content: center;
+    align-items: center;
 }
 .Size div{
     margin-right: 5px;
@@ -268,3 +274,4 @@ a:visited{
     justify-content: center;
     border: 2px solid black;
 }
+.Price, .SalePercent{font-size: 50px; color: red;}
