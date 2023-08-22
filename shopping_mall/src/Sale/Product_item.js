@@ -4,8 +4,9 @@ const Product_item = ({list}) => {
     const Cloth_inform = list.Cloth;
     const sale = list.Sale;
     const Cloth_name = list.Name;
+    const price = list.Price;
     function goInform(){
-        movePage('/Product_inform/Product_inform?Cloth=' + Cloth_inform + "&Sale=" + sale + "&Name=" + Cloth_name);
+        movePage('/Product_inform/Product_inform?Cloth=' + Cloth_inform + "&Sale=" + sale + "&Name=" + Cloth_name + "&Price=" + price);
     }
     return <div className='Product_item'>
         <img src={list.Cloth} onClick={goInform}/>
