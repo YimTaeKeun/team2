@@ -167,6 +167,7 @@ a:visited{
 .Product_info{
     display: flex;
     justify-content:space-between;
+    flex-direction: column;
 }
 .Product_info div{
     display: flex;
@@ -260,6 +261,7 @@ a:visited{
     padding-left: 20%;
     padding-right: 25%;
     padding-top: 100px;
+    margin-right: 0px;
     display: flex;
     flex-direction: column;
     background-color: rgb(245, 235, 235);
@@ -279,3 +281,4 @@ a:visited{
 .like_btn{display: flex; border: 2px solid black; padding-right: 5px; padding-left: 5px; background-color: rgb(111, 255, 130); margin-right: 180px;}
 .like_btn img{width: 20px; margin: 0;}
 .like_btn img:hover{cursor: pointer;}
+.view_review{display: flex; justify-content: center; margin-top: 50px;}

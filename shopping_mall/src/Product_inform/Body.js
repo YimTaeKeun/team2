@@ -10,9 +10,14 @@ const Body = () => {
     const Cloth_name = searchParams.get('Name');
     const Cloth_Price = searchParams.get('Price');
     return <div className="Product_info">
-        <View_Product_Img img_src={Image_inform} />
-        <View_Product_Inform Cloth_name={Cloth_name} Sale_imform={Sale_inform} Cloth_Price={Cloth_Price}/>
-        <View_Review />
+        <div>
+            <View_Product_Img img_src={Image_inform} />
+            <View_Product_Inform Cloth_name={Cloth_name} Sale_imform={Sale_inform} Cloth_Price={Cloth_Price}/>
+        </div>
+        <div style={{display:"flex", justifyContent:"center"}}>
+            <View_Review />
+        </div>
+        
         <TopBottom_Btn />
         {/* 아래 코드는 디버깅 용도로 남겨둔 것임 */}
         {/* <h1>{Cloth_name}</h1> */}
