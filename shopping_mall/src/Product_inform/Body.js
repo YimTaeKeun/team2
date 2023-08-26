@@ -3,7 +3,14 @@ import View_Product_Inform from "./View_Product_Inform";
 import View_Product_Img from "./View_Product_Img";
 import View_Review from "./View_Review";
 import TopBottom_Btn from "../TopBottom_Btn";
+import { useState } from "react";
 const Body = () => {
+    const [reviews, setReviews] = useState([]);
+    // const review_change = () => {
+
+    // }
+
+
     const [searchParams, setSearchParams] = useSearchParams();
     const Image_inform = searchParams.get("Cloth");
     const Sale_inform = searchParams.get('Sale');
