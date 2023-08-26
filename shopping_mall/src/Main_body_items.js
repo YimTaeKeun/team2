@@ -11,6 +11,8 @@ const Main_body_items = ({each}) => {
     return <div className="Product_item home">
         <img src={each.Cloth} onClick={goInform} />
         <h2>{Cloth_name}</h2>
+        <h3>할인가: {price}원</h3>
+        <h3>할인율: {sale}%</h3>
     </div>
 }
 export default Main_body_items;
