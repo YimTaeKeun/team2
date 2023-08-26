@@ -281,4 +281,7 @@ a:visited{
 .like_btn{display: flex; border: 2px solid black; padding-right: 5px; padding-left: 5px; background-color: rgb(111, 255, 130); margin-right: 180px;}
 .like_btn img{width: 20px; margin: 0;}
 .like_btn img:hover{cursor: pointer;}
-.view_review{display: flex; justify-content: center; margin-top: 50px;}
+.view_review{display: flex; justify-content: center; margin-top: 50px; flex-direction: column;}
+/* .view_review div{display: flex; flex-direction: column;} */
+.View_Review_Items{display: flex; border: 2px solid black; margin-top: 5px;}
+.review_list{display: flex; flex-direction: column;}
