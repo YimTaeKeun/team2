@@ -7,7 +7,7 @@ const Main_nav = () => {
         setState("https://www.musinsa.com/search/musinsa/integration?q=" + document.getElementById('main_search_input').value);
     }
     return <div className="sale_nav">
-        <h1 className='main_logo_name'><strong><a href="./App.js">TYH Shopping Mall</a></strong></h1>
+        <h1 className='main_logo_name'><strong><a href="/">TYH Shopping Mall</a></strong></h1>
         <div>
             <input type="text" placeholder="검색" className='main_search_input' onChange={onChangeInput} id='main_search_input'/>
             <a href={state}><img src={search_img}/></a>
