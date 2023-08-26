@@ -285,3 +285,12 @@ a:visited{
 /* .view_review div{display: flex; flex-direction: column;} */
 .View_Review_Items{display: flex; border: 2px solid black; margin-top: 5px;}
 .review_list{display: flex; flex-direction: column;}
+.Box{display: flex; background-color: skyblue;}
+.home img{
+    width: 200px;
+    border: 1px solid black;
+}
+.home{
+    align-items: center;
+    font-size: 11px;
+}
