@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import style from "./style/style.css";
 const Category = () => {
-  const menuLst = ["세일", "성별", "사계절", "랭킹"];
-  const detail = [["폭탄 세일", "한정 세일"], ["남", "여"], ["봄", "여름", "가을", "겨울"], ["금주", "한달", "전체"]];
+  const menuLst = ["세일", "성별", "랭킹"];
+  const detail = [["폭탄 세일", "한정 세일"], ["남", "여"], ["금주", "한달", "전체"]];
   const detail_url = [['/Sale', '/Sale'], ['/Man', '/Woman'], ['/Spring', '/Summer', '/Autumn', '/Winter'], ['/Ranking', '/Ranking', '/Ranking', 'Ranking']];
   const movePage = useNavigate();
   function goPage(big_idx, detail_idx){
