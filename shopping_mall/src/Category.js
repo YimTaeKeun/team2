@@ -4,7 +4,7 @@ import style from "./style/style.css";
 const Category = () => {
   const menuLst = ["세일", "성별", "랭킹"];
   const detail = [["폭탄 세일", "한정 세일"], ["남", "여"], ["금주", "한달", "전체"]];
-  const detail_url = [['/Sale', '/Sale'], ['/Man', '/Woman'], ['/Spring', '/Summer', '/Autumn', '/Winter'], ['/Ranking', '/Ranking', '/Ranking', 'Ranking']];
+  const detail_url = [['/Sale', '/Sale'], ['/Man', '/Woman'], ['/Ranking', '/Ranking', '/Ranking', 'Ranking']];
   const movePage = useNavigate();
   function goPage(big_idx, detail_idx){
     movePage(detail_url[big_idx][detail_idx]);
