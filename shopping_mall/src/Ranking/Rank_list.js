@@ -9,9 +9,9 @@ import pants_3 from '../Product_img/Pants/Jogger_Pants_girl.jpg';
 import Rank_product from './Rank_product';
 
 const Rank_list = () => {
-    const heejae = [hoodyhoody1,hoody_2, pants_3, bluebluegirl,blackgardigan,pants_2,handsomeboy,adidasgirlboy];
+    const Clothes_name = [hoodyhoody1,hoody_2, pants_3, bluebluegirl,blackgardigan,pants_2,handsomeboy,adidasgirlboy];
     let Rank_list = []
-    for(let i = 0; i < heejae.length; i++) Rank_list[i] = {CCLLOOTTHH: heejae[i], Rank: i + 1, Name:heejae[i]};
+    for(let i = 0; i < Clothes_name.length; i++) Rank_list[i] = {CCLLOOTTHH: Clothes_name[i], Rank: i + 1, Name:Clothes_name[i]};
     Rank_list.sort(function(a, b){
         if (a.Rank > b.Rank) return 1;
         else if(a.Rank === b.Rank) return 0;
