@@ -43,11 +43,15 @@ const Main_body = () => {
     let product_list_bottom = []
     for(let i = 0; i < clothes_bottom.length; i++) product_list_bottom[i] = {Cloth: clothes_bottom[i], Sale: Math.floor(Math.random() * 95) + 5, Name: names_bottom[i], Price: Math.floor(Math.random() * 10000) * 10 + 1000};
     return <div className="Main_body" style={{marginTop:'50px'}}>
-        <div style={{fontSize: '25px', marginLeft: '25px', marginBottom: '10px'}}>상의</div>
+        <div className="TopPants-Btn">
+            <a href="#Main_Top"><input className="TPBtn" type = "button" value="상의"/></a>
+            <a href="#Main_Bottom"><input className="TPBtn" type = "button" value="하의"/></a>
+        </div>
+        <div id="Main_Top" style={{fontSize: '25px', marginLeft: '25px', marginBottom: '10px'}}>상의</div>
         <div className="Top Box">
             {product_list_top.map((each) => (<Main_body_items each={each} />))}
         </div>
-        <div style={{fontSize: '25px', marginLeft: '25px', marginTop: '50px', marginBottom: '10px'}}>하의</div>
+        <div id="Main_Bottom" style={{fontSize: '25px', marginLeft: '25px', marginTop: '50px', marginBottom: '10px'}}>하의</div>
         <div className="Bottom Box">
             {product_list_bottom.map((each) => (<Main_body_items each={each} />))}
         </div>
