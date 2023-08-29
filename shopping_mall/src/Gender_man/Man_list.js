@@ -10,19 +10,16 @@ import Man_item from'./Man_item';
 
 const Man_list = () => {
     const clothes_top = {
-        top_1: {Cloth: top_1, Name: '블랙 가디건'},
-        top_2: {Cloth: top_2, Name: 'Michigan(차콜)'},
-        top_3: {Cloth: top_3, Name: '아디다스 티셔츠'},
-        top_4: {Cloth: top_4, Name: '흰 티셔츠'},
-        top_5: {Cloth: top_5, Name: '예일도그 후드'}
+        top_1: {Cloth: top_1, Name: '블랙 가디건', Sale: Math.floor(Math.random() * 95) + 5, Price: Math.floor(Math.random() * 10000) * 10 + 1000},
+        top_2: {Cloth: top_2, Name: 'Michigan(차콜)', Sale: Math.floor(Math.random() * 95) + 5, Price: Math.floor(Math.random() * 10000) * 10 + 1000},
+        top_3: {Cloth: top_3, Name: '아디다스 티셔츠', Sale: Math.floor(Math.random() * 95) + 5, Price: Math.floor(Math.random() * 10000) * 10 + 1000},
+        top_4: {Cloth: top_4, Name: '흰 티셔츠', Sale: Math.floor(Math.random() * 95) + 5, Price: Math.floor(Math.random() * 10000) * 10 + 1000},
+        top_5: {Cloth: top_5, Name: '예일도그 후드', Sale: Math.floor(Math.random() * 95) + 5, Price: Math.floor(Math.random() * 10000) * 10 + 1000}
     };
     const clothes_bottom = {
-        pants_1: {Cloth: pants_1, Name: '슬랙스(블랙)'},
-        pants_2: {Cloth: pants_2, Name: '미니멀팬츠(남녀공용)'}
+        pants_1: {Cloth: pants_1, Name: '슬랙스(블랙)', Sale: Math.floor(Math.random() * 95) + 5, Price: Math.floor(Math.random() * 10000) * 10 + 1000},
+        pants_2: {Cloth: pants_2, Name: '미니멀팬츠(남녀공용)', Sale: Math.floor(Math.random() * 95) + 5, Price: Math.floor(Math.random() * 10000) * 10 + 1000}
     };
-
-    // let Woman_top_list=[];
-    // let Woman_bottom_list=[];
 
     return <div className='Product_list'>
         <div id='Man_Top'>
