@@ -2,16 +2,15 @@ import { useNavigate } from "react-router-dom";
 const Rank_item = ({list}) => {
     const movePage = useNavigate();
     const Cloth_inform = list.CCLLOOTTHH;
-    const sale = list.Sale;
+    const sale_cloth = list.Sale;
     const Cloth_name = list.Name;
-    const price = list.Price;
-
+    const price_cloth = list.Price;
     function goInform(){
-        movePage('/Product_inform/Product_inform?Cloth=' + Cloth_inform + "&Sale=" + sale + "&Name=" + Cloth_name + "&Price=" + price);
+        movePage('/Product_inform/Product_inform?Cloth=' + Cloth_inform + "&Sale=" + sale_cloth + "&Name=" + Cloth_name + "&Price=" + price_cloth);
     }
     return <div className='Rank_item'>
         <img src={list.Cloth} onClick={goInform}/>
-        <h2>{list.Sale} </h2>
+        <h2>{list.Sale}</h2>
     </div>
 }
 export default Rank_item;

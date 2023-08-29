@@ -7,6 +7,7 @@ import handsomeboy from '../Product_img/Top/Michigan_charcoal_boy.jpg';
 import adidasgirlboy from '../Product_img/Top/Tshirt_adidas_boy.jpg'
 import pants_3 from '../Product_img/Pants/Jogger_Pants_girl.jpg';
 import Rank_product from './Rank_product';
+import Rank_item from'./Rank_item';
 
 const Rank_list = () => {
     const Clothes_name = [hoodyhoody1,hoody_2, pants_3, bluebluegirl,blackgardigan,pants_2,handsomeboy,adidasgirlboy];
