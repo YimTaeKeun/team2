@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 const Rank_item = ({list}) => {
     const movePage = useNavigate();
-    const Cloth_inform = list.Cloth;
+    const Cloth_inform = list.CCLLOOTTHH;
     const sale = list.Sale;
     const Cloth_name = list.Name;
     const price = list.Price;
