@@ -9,7 +9,7 @@ const Rank_item = ({list}) => {
         movePage('/Product_inform/Product_inform?Cloth=' + Cloth_inform + "&Sale=" + sale_cloth + "&Name=" + Cloth_name + "&Price=" + price_cloth);
     }
     return <div className='Rank_item'>
-        <img src={list.Cloth} onClick={goInform}/>
+        <img src={list.CCLLOOTTHH} onClick={goInform}/>
         <h2>{list.Sale}</h2>
     </div>
 }
