@@ -6,7 +6,7 @@ const Rank_item = ({list}) => {
     const Cloth_name = list.Name;
     const price_cloth = list.Price;
     function goInform(){
-        movePage('/Product_inform/Product_inform?Cloth=' + Cloth_inform + "&Sale=" + sale_cloth + "&Name=" + Cloth_name + "&Price=" + price_cloth);
+        movePage('/Product_inform/Product_inform?CCLLOOTTHH=' + Cloth_inform + "&Sale=" + sale_cloth + "&Name=" + Cloth_name + "&Price=" + price_cloth);
     }
     return <div className='Rank_item'>
         <img src={list.CCLLOOTTHH} onClick={goInform}/>
